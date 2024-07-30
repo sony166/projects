@@ -1,0 +1,108 @@
+*{
+  background-color: rgb(254, 254, 254);
+  margin: 0;
+}
+#container {
+  width: 0;
+  padding: 10px;
+margin: 200px auto;
+  align-items: center;
+  justify-content: center;
+  border: 0cap;
+}
+#display{
+  background-color: rgb(26, 27, 27);
+  width: 199px;
+  height: 65px;
+  color: white;
+  text-align: right;
+  font-weight: 400;
+  font-size: 25px;
+  margin-left: .5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-width: 0px;
+}
+.calc{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+.zero:hover,
+.but:hover{
+  background-color: rgb(176, 176, 180);
+  border-top: 1px solid rgb(176, 176, 180);
+  border-left: 2px solid rgb(176, 176, 180);
+  border-right: 2px solid rgb(176, 176, 180);
+  border-bottom: 2px solid rgb(176, 176, 180);
+}
+.zero,
+.but{
+  width: 50px;
+  height: 45px;
+  background-color: grey;
+font-size: 16px;
+font-weight: bold;
+  color: whitesmoke;
+  border-top: 1px solid grey;
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  margin: .5px;
+}
+.eq,
+.yellow{
+  height: 45px;
+  width: 50px;
+  background-color: orange;
+  font-size: 17px;
+font-weight: bold;
+  color: whitesmoke;
+  margin: .5px;
+  border-top: 1px solid orange;
+  border-left: 2px solid orange;
+  border-right: 2px solid orange;
+  border-bottom: 2px solid orange;
+}
+.eq:hover,
+.yellow:hover{
+  background-color: rgb(216, 144, 10);
+  border-top: 1px solid rgb(216, 144, 10);
+  border-left: 2px solid rgb(216, 144, 10);
+  border-right: 2px solid rgb(216, 144, 10);
+  border-bottom: 2px solid rgb(216, 144, 10);
+}
+.grey{
+  height: 45px;
+  width: 50px;
+  background-color: rgb(67, 66, 66);
+  font-size: 15px;
+  margin: .5px;
+font-weight: bold;
+  color: whitesmoke;
+  border-top: 1px solid rgb(67, 66, 66);
+  border-left: 2px solid rgb(67, 66, 66);
+  border-right: 2px solid rgb(67, 66, 66);
+  border-bottom: 2px solid rgb(67, 66, 66);
+}
+.grey:hover{
+  background-color: rgb(113, 113, 113);
+  border-top: 1px solid rgb(113, 113, 113);
+  border-left: 2px solid rgb(113, 113, 113);
+  border-right: 2px solid rgb(113, 113, 113);
+  border-bottom: 2px solid rgb(113, 113, 113);
+}
+.zero{
+  width: 152px;
+  margin: .5px;
+  border-bottom-left-radius: 10px;
+}
+.last{
+  display: flex;
+}
+.eq{
+  border-bottom-right-radius: 10px;
+  margin-top: .5px;
+}
